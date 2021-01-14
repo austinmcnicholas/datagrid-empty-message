@@ -1,0 +1,17 @@
+<widget id="datagrid_empty_Message.widget.datagrid_empty_Message" needsEntityContext="false" xmlns="http://www.mendix.com/widget/1.0/">
+    <name>datagrid_empty_Message</name>
+    <description>Dummy widget</description>
+    <icon/>
+    <properties>
+        <property key="key" type="string" required="true" defaultValue="">
+            <caption>datagrid name</caption>
+            <category>settings</category>
+            <description>the name attribute of the datagrid defined in the modeler. Contact Austin with any questions.</description>
+        </property>
+    <property key="message" type="string" required="true" defaultValue="No data found">
+            <caption>message</caption>
+            <category>settings</category>
+            <description>Message to display</description>
+        </property>
+    </properties>
+</widget>
