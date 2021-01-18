@@ -29,7 +29,7 @@ export default defineWidget('datagrid_empty_Message', false, {
         const domList = document.getElementsByClassName(queryName);
         this.grid = registry.byNode(domList[domList.length - 1]);
         const table = this.grid.gridTable;
-        const html = '<div class="hide" style="text-align: center;padding: 10px;margin: 10px;">' + this.message + '</div>'
+        const html = '<div class="hide" style="text-align: center;padding: 10px;margin: 10px;color: red;">' + this.message + '</div>'
         table.insertAdjacentHTML('afterend', html);
         
         aspect.after(this.grid, "fillGrid", lang.hitch(this, 
